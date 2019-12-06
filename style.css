@@ -1,0 +1,201 @@
+.header {
+    background-image: url('./Images/bg.PNG');
+    background-size: cover;
+    height: 83vh;
+}
+
+ul li a {
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn.sign {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+.numb {
+    font-weight: bolder !important;
+    font-size: 1.2rem !important;
+}
+
+.logos {
+    background-color: rgb(92, 18, 161);
+    height: 60vh;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    background-color: whitesmoke;
+    height: 50vh;
+}
+
+.footer-icon {
+    /* background-color: rgb(92, 18, 161); */
+    background-color: rgb(71, 71, 224);
+    height: 15vh;
+    color: white;
+    text-align: center !important;
+}
+
+.card-text {
+    color: gray;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    box-shadow: 2px solid gray;
+}
+
+@media only screen and (max-width: 1024px) {
+    .btn.sign {
+        margin-left: 2rem !important;
+    }
+
+    .header {
+        height: 50vh !important;
+    }
+
+    .content {
+        height: 50vh !important;
+    }
+
+    .content3 {
+        height: 50vh !important;
+    }
+
+    .para {
+        font-size: 1.5rem !important;
+    }
+
+    .para2 {
+        font-size: 1.3rem !important;
+        text-align: justify !important;
+    }
+    h5 {
+        font-size: x-large !important;
+    }
+    .para-content3 {
+        font-size: 1.2rem !important;
+        
+    }
+    .logos {
+        height: 30vh;
+    }
+    .para-footer {
+        font-size: 1.4rem !important;
+    }
+    .footer {
+        height: 30vh !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-img {
+        height: 25% !important;
+    }
+    .logos {
+        margin-top: 4rem !important;
+        height: 50vh;
+    }
+    .footer {
+        height: 60vh !important;
+    }
+    .footer-icon {
+        height: 20vh;
+    }
+    .content {
+        height: 70vh !important;
+        
+    }
+    .img-content2 {
+        height: 80% !important;
+        margin-top: 2.5rem;
+    }
+    .card-img-top {
+        margin-left: 3rem !important;
+    }
+    .header {
+        height: 80vh !important;
+    }
+    .btn.sign2 {
+        width: 20% !important;
+        margin-left: 19rem !important;
+    }
+    .nav-link.home {
+        margin-left: 0px !important;
+        }
+    .img-logo {
+        margin-top: 2rem !important;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 500px) {
+        .btn.sign2 {
+            width: 30% !important;
+            margin-left: 8rem !important;
+        }
+        .header {
+            height: 120vh !important;
+        }
+        .idea {
+            margin-top: 0.5rem !important;
+        }
+        .content {
+            height: 240vh !important;
+        }
+        .card-img-top {
+            margin-left: 7rem !important;
+        }
+        .content2 {
+            margin-top: rem !important;
+        }
+        .content3 {
+            height: 150vh !important;
+        }
+        .logos {
+            height: 70% !important;
+        }
+        .img-logo {
+            margin-top: 1rem !important;
+        }
+        .img-byte {
+            margin-bottom: 2rem !important;
+        }
+        .card-img-top1 {
+            margin-left: 0rem !important;
+        }
+        .btn.white {
+            width: 100% !important;
+        }
+        .btn.toma {
+            margin-left: -5rem !important;
+        }
+        .footer {
+            height: 185vh !important;
+        }
+        .footer-icon {
+            height: 35vh !important;
+        }
+        .para-footer {
+            font-size: 1rem !important;
+        }
+    }
